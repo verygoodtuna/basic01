@@ -1,0 +1,45 @@
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(30, 119, 35);
+
+    width: 300px;
+}
+
+.popup02 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: rgb(30, 119, 35);
+
+    width: 300px;
+}
+
+.popup03 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background: rgb(30, 119, 35);
+
+    width: 300px;
+    z-index: 1;
+}
+
+
+img {
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
