@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>background</title>
+  <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet" href="/css/reset.css">
 </head>
 
@@ -14,7 +15,45 @@
     <h1>basic_one - 처음 배우는 html</h1>
     <ul>
       <li><a href="./doc/basic.html">basic</a></li>
+
       <li><a href="./doc/background01.html" target="_blank"> background 배우기. </a></li>
+    </ul>
+
+
+    <hr>
+    <i class="xi-heart"></i>
+    <style>
+      hr {
+        position: relative;
+        /* border: 3px solid green; */
+        border-top: 1px solid green;
+        overflow: visible;
+      }
+
+      hr::before{
+        content: "\ea10";
+        font-family: xeicon;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 10px;
+        color: #ddd;
+        border: 1px solid #ddd;
+        border-radius: 50%
+      }
+
+    </style>
+
+
+    <h2>css layout header part</h2>
+
+    <ul>
+      <li><a href="./doc/header01.html" target="_blank">header layout 1200 width basic</a></li>
+      <li><a href="./doc/header02.html" target="_blank">header layout 1200 width 반응형 슬릭 메뉴</a></li>
+      <li><a href="./doc/header03.html" target="_blank">header layout 1200 width transition 0.5s 슬릭 메뉴</a></li>
+      <li><a href="./doc/header04.html" target="_blank">header layout 1200 width basic 슬릭메뉴 </a></li>
     </ul>
 
   <h2>video</h2>
@@ -49,6 +88,13 @@
   <ul>
     <li>
       <a href="./doc/product01.html" target="_blank">제품 슬라이드</a>
+    </li>
+  </ul>
+
+  <h2>Tap menu 01 - display: none, block으로 공간을 제어.</h2>
+  <ul>
+    <li>
+      <a href="./doc/tab01.html" target="_blank"> display: none, block tab menu</a>
     </li>
   </ul>
 
